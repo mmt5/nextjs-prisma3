@@ -62,7 +62,7 @@ const AddTodoInput = () => {
         value={text}
         onChange={e => setText(e.target.value)}
       />
-      <button className={styles.addButton}>Add</button>
+      <button className={styles.addButton}>Add ...</button>
     </form>
   );
 };
